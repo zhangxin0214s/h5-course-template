@@ -30,6 +30,9 @@ stage.interactive = true;
  };
 PIXI_LOADER().then(res => {
     console.log("%c资源加载完成", "color:#FF323B;font-weight:bold;");
+
+    // 调用端loading接口，重要勿删
+    answer.loading();
     /*
     * 在这code相应的业务逻辑吧
     * 示例背景
